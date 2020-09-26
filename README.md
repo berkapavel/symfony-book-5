@@ -22,3 +22,4 @@ I will write down all information about installing. Partly different from core t
 * after EasyAdmin (3.1 instead of 2.0 from tutorial) install you need to create dashboard (https://symfony.com/doc/master/bundles/EasyAdminBundle/dashboards.html) `php bin/console make:admin:dashboard`
 * create CRUD (https://symfony.com/doc/master/bundles/EasyAdminBundle/crud.html) `php bin/console make:admin:crud`
 * update Dashboard Controller
+* need to instal `php7.4-intl` to show DateTime in Comment list

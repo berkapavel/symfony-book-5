@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[FTR] update EasyAdmin - create crud and add entities" />
+    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[FTR] update EasyAdmin - create crud and add entities">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/CommentCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/CommentCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +29,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="3f210ad2-426a-4f3f-9af5-c46452460e63" name="Localhost" port="8000" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="WSL2 Ubuntu 20.04">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
@@ -119,10 +130,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/index.php" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="WSL2 Ubuntu 20.04" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/public/index.php">
+      <CommandLine parameters="-dxdebug.remote_host=wsl2.host">
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="WSL2 Ubuntu 20.04" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601113045498</updated>
-      <workItem from="1601113046935" duration="8586000" />
+      <workItem from="1601113046935" duration="13666000" />
     </task>
     <task id="LOCAL-00001" summary="[FTR] install symfony">
       <created>1601113671277</created>
@@ -204,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601128555197</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[FTR] update EasyAdmin - create crud and add entities">
+      <created>1601128765644</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601128765644</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +261,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="[FTR] update EasyAdmin - create crud and add entities" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1380" y="210" key="#CLI_Interpreters" timestamp="1601132936014">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1380" y="210" key="#CLI_Interpreters/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601132936014" />
+    <state x="-1380" y="222" key="#Servers" timestamp="1601133427703">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1380" y="222" key="#Servers/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601133427703" />
+    <state x="-1506" y="210" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601133534793">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1506" y="210" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601133534793" />
     <state x="-1275" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601122600664">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
@@ -241,6 +281,10 @@
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state x="-1230" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601124456480" />
+    <state x="-1180" y="334" key="FileChooserDialogImpl" timestamp="1601133491965">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1180" y="334" key="FileChooserDialogImpl/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601133491965" />
     <state x="-1256" y="278" key="NewPhpClassDialog" timestamp="1601124269604">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
@@ -249,10 +293,18 @@
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state x="-1198" y="275" key="RollbackChangesDialog/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601114596871" />
-    <state x="-1459" y="200" key="SettingsEditor" timestamp="1601113754504">
+    <state x="-1459" y="200" key="SettingsEditor" timestamp="1601132988946">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
-    <state x="-1459" y="200" key="SettingsEditor/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601113754504" />
+    <state x="-1459" y="200" key="SettingsEditor/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601132988946" />
+    <state x="-1239" y="296" width="540" height="524" key="StructurePopup" timestamp="1601133901752">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1239" y="296" width="540" height="524" key="StructurePopup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601133901752" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1601134009846">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601134009846" />
     <state x="-1368" y="288" key="Vcs.Push.Dialog.v2" timestamp="1601113609697">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
@@ -261,9 +313,20 @@
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state x="-1304" y="258" key="run.anything.popup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601120869977" />
-    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1601123867183">
+    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1601133001506">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
-    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601123867183" />
+    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601133001506" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Entity/Comment.php</url>
+          <line>98</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
