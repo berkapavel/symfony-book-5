@@ -6,7 +6,7 @@
 * Online - https://symfony.com/doc/5.0/the-fast-track/en/index.html
 * Core git - https://github.com/the-fast-track/
 
-## Readme
+## TO-DO
 
 I will write down all information about installing. Partly different from core tutorial book.
 
@@ -19,4 +19,6 @@ I will write down all information about installing. Partly different from core t
 * install php extension `sudo apt install php7.4-pgsql`
 
 ### Admin
-* after EasyAdmin install you need to create dashboard `php bin/console make:admin:dashboard`
+* after EasyAdmin (3.1 instead of 2.0 from tutorial) install you need to create dashboard (https://symfony.com/doc/master/bundles/EasyAdminBundle/dashboards.html) `php bin/console make:admin:dashboard`
+* create CRUD (https://symfony.com/doc/master/bundles/EasyAdminBundle/crud.html) `php bin/console make:admin:crud`
+* update Dashboard Controller

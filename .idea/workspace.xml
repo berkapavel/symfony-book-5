@@ -10,20 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[FTR] add new entities, repository for them and migration">
-      <change afterPath="$PROJECT_DIR$/config/packages/easy_admin.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/easy_admin.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony-book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-book.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-    </list>
+    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[FTR] update EasyAdmin - create crud and add entities" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601113045498</updated>
-      <workItem from="1601113046935" duration="6500000" />
+      <workItem from="1601113046935" duration="8586000" />
     </task>
     <task id="LOCAL-00001" summary="[FTR] install symfony">
       <created>1601113671277</created>
@@ -189,7 +176,35 @@
       <option name="project" value="LOCAL" />
       <updated>1601123048866</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[FTR] install EasyAdmin extension">
+      <created>1601123856245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601123856245</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[FTR] update EasyAdmin - create crud and add entities">
+      <created>1601124576319</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601124576319</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[FTR] update EasyAdmin - create crud and add entities">
+      <created>1601126888560</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601126888560</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[FTR] update EasyAdmin - create crud and add entities">
+      <created>1601128555197</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601128555197</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,13 +228,23 @@
     <MESSAGE value="[FTR] add orm extension and connect to postgresql" />
     <MESSAGE value="[FTR] add first controller with template" />
     <MESSAGE value="[FTR] add new entities, repository for them and migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FTR] add new entities, repository for them and migration" />
+    <MESSAGE value="[FTR] install EasyAdmin extension" />
+    <MESSAGE value="[FTR] update EasyAdmin - create crud and add entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FTR] update EasyAdmin - create crud and add entities" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1275" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601122600664">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state x="-1275" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601122600664" />
+    <state x="-1230" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601124456480">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1230" y="310" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601124456480" />
+    <state x="-1256" y="278" key="NewPhpClassDialog" timestamp="1601124269604">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1256" y="278" key="NewPhpClassDialog/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601124269604" />
     <state x="-1198" y="275" key="RollbackChangesDialog" timestamp="1601114596871">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
@@ -236,5 +261,9 @@
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state x="-1304" y="258" key="run.anything.popup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601120869977" />
+    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1601123867183">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601123867183" />
   </component>
 </project>
