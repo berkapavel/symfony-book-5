@@ -10,17 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[FTR] install symfony tools">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony-book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-book.iml" afterDir="false" />
+    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[FTR] add first controller with template">
+      <change afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Conference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ConferenceRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601113045498</updated>
-      <workItem from="1601113046935" duration="4315000" />
+      <workItem from="1601113046935" duration="5609000" />
     </task>
     <task id="LOCAL-00001" summary="[FTR] install symfony">
       <created>1601113671277</created>
@@ -143,7 +138,28 @@
       <option name="project" value="LOCAL" />
       <updated>1601116056078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[FTR] add docker">
+      <created>1601121028082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601121028082</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[FTR] add orm extension and connect to postgresql">
+      <created>1601121076276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601121076276</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[FTR] add first controller with template">
+      <created>1601121103999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601121103999</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,9 +179,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[FTR] install symfony" />
     <MESSAGE value="[FTR] install symfony tools" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FTR] install symfony tools" />
+    <MESSAGE value="[FTR] add docker" />
+    <MESSAGE value="[FTR] add orm extension and connect to postgresql" />
+    <MESSAGE value="[FTR] add first controller with template" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FTR] add first controller with template" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1275" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601122600664">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1275" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601122600664" />
     <state x="-1198" y="275" key="RollbackChangesDialog" timestamp="1601114596871">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
@@ -178,5 +201,9 @@
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state x="-1368" y="288" key="Vcs.Push.Dialog.v2/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601113609697" />
+    <state x="-1304" y="258" key="run.anything.popup" timestamp="1601120869977">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1304" y="258" key="run.anything.popup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601120869977" />
   </component>
 </project>
