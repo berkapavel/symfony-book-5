@@ -17,3 +17,6 @@ I will write down all information about installing. Partly different from core t
 * start server `symfony server:start -d` - for me it's working on localhost:8000
 * https://symfony.com/doc/current/reference/configuration/framework.html#ide
 * install php extension `sudo apt install php7.4-pgsql`
+
+### Admin
+* after EasyAdmin install you need to create dashboard `php bin/console make:admin:dashboard`
