@@ -10,24 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[FTR] install symfony twig extension">
-      <change afterPath="$PROJECT_DIR$/templates/conference/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony-book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-book.iml" afterDir="false" />
+    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[FTR] update list and show of conference with comments">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CommentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/conference/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/conference/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -139,15 +134,18 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/conference" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\berkic\workspace\symfony-book\public\adminer" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu\home\berkic\workspace\symfony-book\templates\conference" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yaml.redis: Compose Deployment">
     <configuration name="WSL2 Ubuntu 20.04" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/public/index.php">
       <CommandLine parameters="-dxdebug.remote_host=wsl2.host">
         <PhpTestInterpreterSettings>
@@ -156,6 +154,28 @@
       </CommandLine>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yaml.redis: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="redis" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yaml.redis: Compose Deployment" />
+      <item itemvalue="PHP Script.WSL2 Ubuntu 20.04" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yaml.redis: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -165,7 +185,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601113045498</updated>
-      <workItem from="1601113046935" duration="16087000" />
+      <workItem from="1601113046935" duration="18729000" />
+      <workItem from="1601296745035" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="[FTR] install symfony">
       <created>1601113671277</created>
@@ -258,7 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601135173780</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[FTR] install symfony twig-intl extension">
+      <created>1601136898375</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601136898375</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[FTR] update list and show of conference with comments">
+      <created>1601136933867</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601136933867</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +309,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[FTR] install symfony" />
@@ -286,7 +322,9 @@
     <MESSAGE value="[FTR] update EasyAdmin - create crud and add entities" />
     <MESSAGE value="[FTR] EasyAdmin - update commend crud with field types" />
     <MESSAGE value="[FTR] install symfony twig extension" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FTR] install symfony twig extension" />
+    <MESSAGE value="[FTR] install symfony twig-intl extension" />
+    <MESSAGE value="[FTR] update list and show of conference with comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FTR] update list and show of conference with comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1380" y="210" key="#CLI_Interpreters" timestamp="1601132936014">
@@ -321,10 +359,10 @@
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state x="-1198" y="275" key="RollbackChangesDialog/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601114596871" />
-    <state x="-1459" y="200" key="SettingsEditor" timestamp="1601132988946">
+    <state x="-1459" y="200" key="SettingsEditor" timestamp="1601137990008">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
-    <state x="-1459" y="200" key="SettingsEditor/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601132988946" />
+    <state x="-1459" y="200" key="SettingsEditor/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601137990008" />
     <state x="-1239" y="296" width="540" height="524" key="StructurePopup" timestamp="1601133901752">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>

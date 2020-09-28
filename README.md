@@ -23,3 +23,10 @@ I will write down all information about installing. Partly different from core t
 * create CRUD (https://symfony.com/doc/master/bundles/EasyAdminBundle/crud.html) `php bin/console make:admin:crud`
 * update Dashboard Controller
 * need to instal `php7.4-intl` to show DateTime in Comment list
+
+### database
+* login to docker postgresql db `docker exec -it symfony-book_database_1 bash`
+
+### redis
+* update redis and install all you need
+* check if redis is working in docker `redis-cli -h 127.0.0.1 -p 32768 ping`
