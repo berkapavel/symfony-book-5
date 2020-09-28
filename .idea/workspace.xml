@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,12 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[FTR] update list and show of conference with comments">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="4c6d77e2-edf5-4fa4-bde2-bb51b167a0c1" name="Default Changelist" comment="[REF] add more information in readme file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ConferenceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601113045498</updated>
       <workItem from="1601113046935" duration="18729000" />
-      <workItem from="1601296745035" duration="2253000" />
+      <workItem from="1601296745035" duration="3187000" />
     </task>
     <task id="LOCAL-00001" summary="[FTR] install symfony">
       <created>1601113671277</created>
@@ -293,7 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601136933867</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[FTR] install redis">
+      <created>1601299541879</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601299541879</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[REF] add more information in readme file">
+      <created>1601300023123</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601300023123</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +339,9 @@
     <MESSAGE value="[FTR] install symfony twig extension" />
     <MESSAGE value="[FTR] install symfony twig-intl extension" />
     <MESSAGE value="[FTR] update list and show of conference with comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FTR] update list and show of conference with comments" />
+    <MESSAGE value="[FTR] install redis" />
+    <MESSAGE value="[REF] add more information in readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="[REF] add more information in readme file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1380" y="210" key="#CLI_Interpreters" timestamp="1601132936014">
@@ -339,6 +356,10 @@
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state x="-1506" y="210" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601133534793" />
+    <state x="-1155" y="271" key="#com.intellij.ide.util.MemberChooser" timestamp="1601300289346">
+      <screen x="-1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="-1155" y="271" key="#com.intellij.ide.util.MemberChooser/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601300289346" />
     <state x="-1275" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601122600664">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
@@ -371,18 +392,18 @@
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601134009846" />
-    <state x="-1368" y="288" key="Vcs.Push.Dialog.v2" timestamp="1601113609697">
+    <state x="-1368" y="288" key="Vcs.Push.Dialog.v2" timestamp="1601299583109">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
-    <state x="-1368" y="288" key="Vcs.Push.Dialog.v2/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601113609697" />
+    <state x="-1368" y="288" key="Vcs.Push.Dialog.v2/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601299583109" />
     <state x="-1304" y="258" key="run.anything.popup" timestamp="1601120869977">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
     <state x="-1304" y="258" key="run.anything.popup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601120869977" />
-    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1601135942465">
+    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1601300353148">
       <screen x="-1920" y="30" width="1920" height="1050" />
     </state>
-    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601135942465" />
+    <state x="-1297" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1600.870/-1920.30.1920.1050@-1920.30.1920.1050" timestamp="1601300353148" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
