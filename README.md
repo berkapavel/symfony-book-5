@@ -26,6 +26,9 @@ I will write down all information about installing. Partly different from core t
 
 ### database
 * login to docker postgresql db `docker exec -it symfony-book_database_1 bash`
+* migration up - `symfony doctrine:migrations:migrate`
+* show list of migrations -`symfony doctrine:migrations:list`
+* migration down (needs to be exact same name as from the list) - `symfony doctrine:migrations:execute 'DoctrineMigrations\Version20200928154415' --down` 
 
 ### redis
 * update redis and install all you need
