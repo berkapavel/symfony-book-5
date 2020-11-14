@@ -10,6 +10,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+// https://symfony.com/doc/2.x/bundles/EasyAdminBundle/book/complex-dynamic-backends.html#override-the-admincontroller-methods-per-entity
 class DashboardController extends AbstractDashboardController
 {
     /**

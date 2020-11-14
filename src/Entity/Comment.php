@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use App\Repository\CommentRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
@@ -12,6 +13,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class Comment
 {
+    private const UPLOAD_PHOTO_DIR = '/home/berkic/workspace/symfony-book/public/uploads/photos/';
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
@@ -142,5 +144,25 @@ class Comment
         $this->photoFilename = $photoFilename;
 
         return $this;
+    }
+
+    public function getVirtualPhotoFile()
+    {
+        //Set path for easyadmin
+        if ($this->photoFilename) {
+            $path = self::UPLOAD_PHOTO_DIR . $this->photoFilename;
+            return new File($path);
+        }
+
+        return null;
+    }
+
+    public function setVirtualPhotoFile($photoFile): void
+    {
+        $filename = bin2hex(random_bytes(6)) . '.' . $photoFile->guessExtension();
+        $photoFile->move(self::UPLOAD_PHOTO_DIR, $filename);
+
+        //Only keep last part of filepath
+        $this->setPhotoFilename($filename);
     }
 }

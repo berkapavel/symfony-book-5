@@ -55,6 +55,8 @@ class ConferenceController extends AbstractController
         string $photoDir
     )
     {
+        dump($photoDir);
+        exit();
         $comment = new Comment();
         $form = $this->createForm(CommentFormType::class, $comment);
         $form->handleRequest($request);
