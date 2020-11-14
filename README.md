@@ -21,7 +21,7 @@ I will write down all information about installing. Partly different from core t
 
 #### Reopen project
 * `make up`
-* mozny problem s neexistujicim symfony se resi pomoci `export PATH="$HOME/.symfony/bin:$PATH"`
+* `export PATH="$HOME/.symfony/bin:$PATH"` mozny problem s neexistujicim symfony se resi pomoci
 
 ### Admin
 * after EasyAdmin (3.1 instead of 2.0 from tutorial) install you need to create dashboard (https://symfony.com/doc/master/bundles/EasyAdminBundle/dashboards.html) `php bin/console make:admin:dashboard`
